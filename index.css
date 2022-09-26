@@ -1,0 +1,56 @@
+
+
+/* header */
+#header img{
+  width: 150px;
+}
+
+.navbar.navbar-expand-lg.bg-secundary{
+  background-color: #0c1633;
+  
+}
+.navbar-nav{
+  --bs-nav-link-padding-y: 0rem;
+  color:  #98ca3f;
+}
+/* /header */
+
+/* hero */
+.list-group  li a {
+  color: #98ca3e;
+}
+/* /hero */
+
+/* section  sobre mi*/
+/* /section  sobre mi*/
+
+/*hard skills*/
+.hard-skills .card{
+  height:120px;
+}
+.hobbies .card{
+  height:120px;
+}
+.img-custom{
+  width: 3rem;
+  align-self: center;
+  
+}
+/* section  estudios*/
+
+/* /section  estudios*/
+
+/* section  proyectos*/
+/* /section  proyectos*/
+
+/* footer */
+.footer{
+  background-color: #0c1633;
+}
+.footer h5{
+  color: #98ca3e;
+}
+.footer__copyrigth{
+  color: #98ca3e;
+}
+/* footer */

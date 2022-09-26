@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous" />
+
+  <script src="https://kit.fontawesome.com/3d09fa9176.js" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="index.css" />
+  <title>Proyecto AP</title>
+</head>
+
+<body>
+  <!--header-->
+  <nav id="header" class="navbar navbar-expand-lg bg-secundary navbar-dark">
+
+    <!--branding-->
+    <div class=" container ">
+      <a class="navbar-brand" href="#">
+        <img src="assets/images/APLogo-20-20.png" alt="logotipo Argentina programa" />
+      </a>
+      <!--/branding-->
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto">
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">proyectos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">sobre mi</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link me-4" href="#">estudios</a>
+          </li>
+          <!-- Button login__modal -->
+          <li class="nav-item">
+            <i class="fa-solid fa-user-lock" type="button" class="btn btn-primary" data-bs-toggle="modal"
+              data-bs-target="#exampleModal">
+              Login
+            </i>
+            <!--/ Button login__modal -->
+          </li>
+        </ul>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">
+                  Login de edicion
+                </h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <!--content modal -->
+                <div class="mb-3 row">
+                  <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
+                  <div class="col-sm-10">
+                    <input type="text" class="form-control-plaintext" id="staticEmail" value="email@dominio.com">
+                  </div>
+                </div>
+                <div class="mb-3 row">
+                  <label for="inputPassword" class="col-sm-2 col-form-label">Contraseña</label>
+                  <div class="col-sm-10">
+                    <input type="password" class="form-control" id="inputPassword">
+                  </div>
+                </div>
+                <!--/content modal -->
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-primary">
+                  ingresar
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- /Modal -->
+
+  <!--/header-->
+
+  <!--Hero-Section-->
+  <section class="hero-section mb-5">
+    <div class="container">
+      <div class="row  mx-auto align-items-center ">
+        <div class=" col-md-5 ">
+          <h2>
+            Hola, mi nombre es Juan pablo FrontEnd Developer
+          </h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni culpa voluptates, aliquid cum
+            totam excepturi possimus ratione, iure delectus enim maiores sit ipsa error consectetur illum
+            ipsam, voluptatibus sint. Consectetur.
+          </p>
+          <ul class="list-group list-group-horizontal  ">
+            <li class="list-group-item border-white">
+              <a href="">
+                <i class="fa-brands fa-github fa-2xl  "></i>
+              </a>
+            </li>
+            <li class="list-group-item border-white">
+              <a href="">
+                <i class="fa-brands fa-linkedin fa-2xl"></i>
+              </a>
+            </li </ul>
+        </div>
+        <div class="col-md-7 ">
+          <img src="assets/images/perfil-canvas.png" class="rounded-circle ms-auto d-block mt-4 mb-1" alt="foto perfil">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--Hero-Section-->
+
+  <!--sobre mi-->
+  <section class="abautme mb-5">
+    <div class="container">
+      <div class="row ">
+        <div class="col col-sm-12  text-md-left text-upercase">
+          <small>conoce mas</small>
+          <h3>Sobre mi</h3>
+          <p class="col-9">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus aliquam consequuntur
+            earum laboriosam rem mollitia ex voluptatem distinctio, sit cum, molestiae harum. In libero nesciunt
+            corporis modi quisquam autem distinctio.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--/sobre mi-->
+
+  <!--hard skills-->
+  <section class="hard-skills mb-5">
+    <div class="container">
+      <div class="raw">
+        <div class="col text-center text-upercase mb-3">
+          <small>conoce mis</small>
+          <h2>skills</h2>
+        </div>
+      </div>
+
+      <div class="row ">
+
+        <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 mb-1 ">
+          <div class="card">
+            <img src="assets/images/html5.svg" class="card-img-end img-custom mt-3" alt="icono html">
+            <div class="card-body">
+              <p class="card-text text-center">Html</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 mb-1">
+          <div class="card position-relative">
+            <img src="assets/images/css3-alt.svg" class="card-img-top img-custom mt-3" alt="...">
+            <div class="card-body position-relative">
+              <p class="card-text text-center">Css</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 mb-1">
+          <div class="card">
+            <img src="assets/images/js.svg" class="card-img-top img-custom mt-3" alt="...">
+            <div class="card-body">
+              <p class="card-text text-center">Js</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 mb-1">
+          <div class="card">
+            <img src="assets/images/python.svg" class="card-img-top img-custom mt-3" alt="...">
+            <div class="card-body">
+              <p class="card-text text-center">Python</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 mb-1">
+          <div class="card">
+            <img src="assets/images/java.svg" class="card-img-top img-custom mt-3" alt="...">
+            <div class="card-body">
+              <p class="card-text text-center">Java</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 mb-1 ">
+          <div class="card">
+            <img src="assets/images/angular.svg" class="card-img-top img-custom mt-3" alt="...">
+            <div class="card-body">
+              <p class="card-text text-center">Angular</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 mb-1">
+          <div class="card">
+            <img src="assets/images/node.svg" class="card-img-top img-custom mt-3" alt="...">
+            <div class="card-body">
+              <p class="card-text text-center">Node</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 mb-1">
+          <div class="card">
+            <img src="assets/images/github-alt.svg" class="card-img-top img-custom mt-3" alt="...">
+            <div class="card-body">
+              <p class="card-text text-center">Github</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--/hard skills-->
+
+  <!--hobbies-->
+  <section  class=" hobbies mb-5">
+    <div class="container">
+      <div class="row">
+        <div class="col text-center text-upercase mb-3">
+          <small>conoce mis</small>
+          <h2>Hobbies</h2>
+        </div>
+      </div>
+      <div class="row">
+
+        <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6  mb-1">
+          <div class="card">
+            <img src="assets/images/headphones-solid.svg" class="card-img-end img-custom mt-3" alt="icono musica">
+            <div class="card-body">
+              <p class="card-text text-center">Escuchar musica</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 mb-1">
+          <div class="card position-relative">
+            <img src="assets/images/book-solid.svg" class="card-img-top img-custom mt-3" alt="icono libro">
+            <div class="card-body position-relative">
+              <p class="  position-absolute bottom-0 start-50 translate-middle-x">Leer libros</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 mb-1">
+          <div class="card">
+            <img src="assets/images/guitar-solid.svg" class="card-img-top img-custom mt-3" alt="icono guitarra">
+            <div class="card-body">
+              <p class="card-text text-center">tocar guitarra</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 mb-1">
+          <div class="card">
+            <img src="assets/images/motorcycle-solid.svg" class="card-img-top img-custom mt-3"
+              alt="icono motocicleta">
+            <div class="card-body">
+              <p class="card-text text-center"> viajar en moto</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-ms-4 mb-1">
+          <div class="card">
+            <img src="assets/images/person-running-solid.svg" class="card-img-top img-custom mt-3"
+              alt="icono persona">
+            <div class="card-body">
+              <p class="card-text text-center">hacer Running</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 mb-1">
+          <div class="card">
+            <img src="assets/images/mug-hot-solid.svg" class="card-img-top img-custom mt-3" alt="...">
+            <div class="card-body">
+              <p class="card-text text-center">Me gusta el cafe</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--/hobbies-->
+
+  <!--Educacion-->
+
+  <section class="education mb-5">
+    <div class="container">
+      <div class="row g-3">
+        <div class="col-12 col-md-6 col-lg-4 ">
+            <div class="card">
+              <img src="assets/images/deco-bg.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 ">
+          <div class="card ">
+            <img src="assets/images/perfil-canvas.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 ">
+          <div class="card ">
+            <img src="assets/images/logo-univ2.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>    
+
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <!--/Educacion-->
+
+  <!--Proyectos-->
+
+  <!--/Proyectos-->
+
+  <!--Contacto-->
+
+  <!--/contacto-->
+
+  <!--footer-->
+<footer class="footer  text-white pt-5 pb-4">
+  <div class="container text-center text-md-left">
+    <div class="row text-center text-md-left">
+      <div class="col-12 col-md-4 col-lg-4 mx-auto ">
+        <h5 class="text-uppercase mb-4 font-weight-bold ">Argentina Programa</h5>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque dolorem placeat quae eaque, obcaecati explicabo amet modi cumque eos nemo consequatur odit ipsam ratione vel! Assumenda error ab ipsum corporis?
+        </p>
+      </div>
+      <div class="col-12 col-md-4 col-lg-4 mx-auto ">
+        <h5 class="text-uppercase mb-4 font-weight-bold ">Menu</h5>
+        <p>
+          <a href="#" class="text-white" style="text-decoration:none ;">Sobre mi</a>
+        </p>
+        <p>
+          <a href="#" class="text-white" style="text-decoration:none ;"> Skills</a>
+        </p>
+        <p>
+          <a href="#" class="text-white" style="text-decoration:none ;"> Estudios</a>
+        </p>
+      </div>
+      <div class="col-12 col-md-4 col-lg-4  mx-auto ">
+        <h5 class="text-uppercase mb-4 font-weight-bold ">contacto</h5>
+        <p>
+          <i class=" fas fa-home mr-3"></i> Buenos Aires Argentina
+        </p>
+        <p>
+          <i class=" fas fa-regular fa-at mr-3"></i> pabloayoroa23@gmail.com
+        </p>
+        <p>
+          <i class=" fas fa-phone mr-3"></i> +54-9-1150.....
+        </p>
+      </div>
+    </div>
+    <hr>
+    <div class="row  align-items-center">
+      <div class="  col-md7 col-lg-12">
+        <p class="text-muted">
+          copyright
+          <span class="footer__copyrigth">
+            <i class="fa-solid fa-copyright fa-4xs "></i>
+          </span>
+          2022 derechos reservados
+        </p>
+
+      </div>
+    </div>
+  </div>
+</footer>
+  <!--/footer-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+    crossorigin="anonymous"></script>
+</body>
+</html>
