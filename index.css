@@ -11,7 +11,9 @@
 }
 .navbar-nav{
   --bs-nav-link-padding-y: 0rem;
-  color:  #98ca3f;
+}
+#nav-item--login{
+  color: #98ca3f;
 }
 /* /header */
 
@@ -57,7 +59,9 @@
   
 }
 /* section  estudios*/
-
+.card-custom{
+  width: 18Rem;
+}
 /* /section  estudios*/
 
 /* section  proyectos*/
@@ -65,7 +69,7 @@
 
 /* footer */
 .footer{
-  background-color: #0c1633;
+  background-color: #26282b;
 }
 .footer h5{
   color: #98ca3e;
@@ -74,3 +78,9 @@
   color: #98ca3e;
 }
 /* footer */
+
+/* Login */
+.login{
+  height: 35vh;
+}
+/* Login */
