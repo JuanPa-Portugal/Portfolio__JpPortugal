@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous" />
+  <script src="https://kit.fontawesome.com/3d09fa9176.js" crossorigin="anonymous"></script>
+
+<link rel="stylesheet" href="index.css" />
+  <title>panel</title>
+</head>
+<body>
+    <!--header-->
+    <nav id="header" class="navbar navbar-expand-lg bg-secundary navbar-dark mb-5">
+
+      <!--branding-->
+      <div class=" container ">
+        <a class="navbar-brand" href="/">
+          <img src="assets/images/logoMountainBlanco.png" alt="logotipo mountain hike" />
+        </a>
+        <!--/branding-->
+  
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+  
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+  
+            <!-- Button login__link -->
+            <li class="nav-item">
+              <a id="nav-item--login" href="">
+                <i class="fa-solid fa-user">
+                  
+                </i>
+              </a>
+              <!--/ Button login__link -->
+            </li>
+          </ul>
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">
+                    Login de edicion
+                  </h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+  
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- /Modal -->
+    <!--/header-->
+  <!--panel-->
+    <div class="container-fluid text-center">
+      <div class="row">
+        <div class="col-1">
+        </div>
+        <div class="col-2 pt-5">
+          <img src="assets/images/perfil-canvas.png" class="rounded-circle img-fluid mg__custom--panel mb-3" alt="foto perfil">
+     
+          <ul class="list-group">
+            
+            <li class="list-group-item item">
+              <a href="#" data-bs-toggle="modal" data-bs-target="#redesModal"
+               class="links"><i class="fa-regular fa-thumbs-up"></i> redes</a>
+            </li>
+
+            <li class="list-group-item item">
+              <a href="#" data-bs-toggle="modal" data-bs-target="#bannerModal" class="links"><i class="fa-solid fa-align-left"></i> banner</a>
+            </li>
+
+            <li class="list-group-item item">info</li>
+            
+          </ul>
+
+        </div>
+        <div class="col-8">
+          <!-- Inicio Redes Modal -->
+          <div class="modal fade" id="redesModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered modal-xl">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                ...
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+              </div>
+            </div>
+          </div>
+          </div>
+          <!-- /Fin Redes Modal -->
+
+          <!-- Inicio banner Modal -->
+          <div class="modal fade" id="bannerModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-xl">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">Hero Section</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <div class="container text-center">
+                    <div class="row">
+                      <div class="col-1">
+                        
+                      </div>
+                      <div class="col-10">
+                        <form>
+                          <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">titulo</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">   
+                          </div>
+                          <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">texto</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                          </div>
+                          <button type="submit" class="btn btn-primary">editar </button>
+                          <button type="submit" class="btn btn-primary">eliminar </button>
+                          <button type="submit" class="btn btn-primary">guardar </button>
+                        </form>
+                      </div>
+                      <div class="col-1">
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  
+                  <button type="button" class="btn btn-primary">guardar cambios</button>
+                </div>
+              </div>
+            </div>
+            </div>
+            <!-- /Fin banner Modal -->
+        </div>
+        <div class="col-1">
+        </div>
+      </div>
+    </div>  
+  <!--panel->
+<!--login-->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+    crossorigin="anonymous"></script>
+</body>
+</html>
