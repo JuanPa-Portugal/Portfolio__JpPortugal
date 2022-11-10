@@ -84,3 +84,14 @@
   height: 35vh;
 }
 /* Login */
+
+/* panel */
+.mg__custom--panel{
+  width: 50%;
+}
+.item{
+  font-size: 1.5rem;
+}
+.links{
+  text-decoration: none;
+}
