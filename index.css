@@ -1,9 +1,13 @@
 
+body{
+  padding-top: 150px;
+}
 
 /* header */
 #header img{
-  width: 150px;
+  width: 220px;
 }
+
 
 .navbar.navbar-expand-lg.bg-secundary{
   background-color: #0c1633;
@@ -24,6 +28,13 @@
 /* /hero */
 
 /* section  sobre mi*/
+
+.aboutme{
+  background-color: #f6f7f8ec;
+  box-shadow:  20px 20px 60px #3e66ca35,
+  -20px -20px 60px #f9f8f8;
+  margin-bottom: 30px;
+}
 /* /section  sobre mi*/
 
 /*hard skills*/
@@ -61,6 +72,8 @@
 /* section  estudios*/
 .card-custom{
   width: 18Rem;
+  box-shadow:  20px 20px 60px #3e66ca35,
+  -20px -20px 60px #f9f8f8;
 }
 /* /section  estudios*/
 
